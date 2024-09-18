@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<math.h>
+int main () {
+int a,b,c,d;
+float average;
+printf("\nenter value of a :");
+scanf("%d",&a);
+printf("\nenter value of b :");
+scanf("%d",&b);
+printf("\nenter value of c :");
+scanf("%d",&c);
+d=a+b+c;
+
+printf("\n%d+%d+%d=%d",a,b,c,d );
+
+average = (a+b+c)/3;
+printf("\n");
+printf("\naverage of 3 values= %f",average);
+
+return 0;
+}
