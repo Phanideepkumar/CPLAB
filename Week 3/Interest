@@ -5,5 +5,5 @@ float p,t,r,k;
 printf("\nenter the value of p, t, r : ");
 scanf("%f%f%f",&p,&t,&r);
 k=(p*t*r)/100;
-printf("\ncompound ratio= %f",k);
+printf("\ncompound interest = %f",k);
 }
