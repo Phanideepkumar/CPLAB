@@ -1,5 +1,0 @@
-#include<stdio.h>
-int main() {
-int a=47;
-printf(" hexa decimal=%x",a);
-}
