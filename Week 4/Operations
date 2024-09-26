@@ -1,0 +1,23 @@
+ #include<stdio.h>
+
+ int main(){
+
+int a,b,c,d,e,f,g;
+
+ float h, i,j,l;
+
+printf("enter the values : \n");
+
+ scanf("%d%d%d%d%d%d%d",&a,&b, &c, &d, &e, &f,&g);
+
+ h=a+b*c+(d*e)+f*g;
+
+ i=a/b*c-b+a*d/3;
+
+l=a+++b---a;
+
+ j=(i++) + (++i);
+
+ printf("\n%f,%f,%f,%f",h,i,l,j);
+}
+
