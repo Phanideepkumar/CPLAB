@@ -1,0 +1,39 @@
+#include<stdio.h>
+
+int main () {
+
+int IP, CE, LAC, CHE, BCME, TOTAL;
+
+float AVERAGE;
+
+printf("enter your subject marks:");
+
+printf("\nIP: ");
+
+scanf("%d",&IP);
+
+printf("\nCE: ");
+
+scanf("%d",&CE);
+
+printf("\nLAC: ");
+
+scanf("%d",&LAC);
+
+printf("\nCHE: ");
+
+scanf("%d",&CHE);
+
+printf("\nBCME: ");
+
+scanf("%d",&BCME);
+
+TOTAL=IP+CE+LAC+CHE+BCME;
+
+AVERAGE=(IP+CE+LAC+CHE+BCME)/5;
+
+printf("TOTAL=%d\n", TOTAL);
+
+printf("AVERAGE=%f\n", AVERAGE);
+
+}
