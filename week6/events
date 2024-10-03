@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main () {
+int a,sum=0,count=0;
+char ans='y';
+while (ans== 'y') {
+    printf("enter the value of a: ");
+   scanf("%d",&a);
+   sum = sum+a;
+   count++;
+   printf("will you add more? ('y' or 'n') : \n");
+   scanf (" %c",&ans);
+  } 
+printf("sum=%d\n",sum);
+printf("average=%f",(float)sum/count);
+}
