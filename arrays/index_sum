@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main () {  
+ int i,arr[5],arr2[5],arr3[5];
+ printf("enter the elements of array 1 : " );
+ for(i=0;i<5;i++) {
+     scanf("%d",&arr[i]);
+ }
+ printf("enter the elements of array 2 : " );
+ for(i=0;i<5;i++) {
+     scanf("%d",&arr2[i]);
+ }
+ for(i=0;i<5;i++) {
+     arr3[i]=arr[i]+arr2[i];
+     printf("\nsum=%d",arr3[i]);
+ }
+ return 0;
+}
