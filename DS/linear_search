@@ -1,0 +1,28 @@
+#include<stdio.h>
+int l_search(int a[],int size) {
+     int i,key;
+     printf("enter key element to search:");
+     scanf("%d",&key);
+     for(i=0;i<size;i++){
+         if(key==a[i]){
+            return i;
+            }
+       }
+return -1;
+}
+int main() {
+   int i,n,a[30],result;
+   printf("enter the size of array:");
+   scanf("%d",&n);
+   printf("enter the array elements:");
+   for(i=0;i<n;i++){
+       scanf("%d",&a[i]);
+       }
+    result=l_search(a,n);
+    if(result!=-1)
+       printf("key present at index=%d",result);
+    else 
+    printf("elements not found");  
+return 0;
+}     
+    
