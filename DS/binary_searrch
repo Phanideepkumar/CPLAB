@@ -1,0 +1,31 @@
+#include<stdio.h>
+ int bsearch(int a[],int n){
+     int low=0,high=n-1,mid,key;
+     printf("enter the key element to search: ");
+     scanf("%d",&key);
+     while(low<=high){
+          mid=(low+high)/2;
+          if(key==a[mid])
+             return mid;
+          else if(key>a[mid])
+             low=mid+1;
+           else 
+             high=mid-1;
+             }
+    return -1;
+ }
+ int main(){
+    int a[30],i,n,result;
+    printf("eneter the size of array: ");
+    scanf("%d",&n);
+    printf("enter the elements in array :"   );                   
+     for(i=0;i<n;i++){
+         scanf("%d",&a[i]);
+         }
+   result=bsearch(a,n) ;     
+   if(result!=-1)
+     printf("key found at %d index",result);
+   else
+       printf("key noy found.");
+ return 0;
+}         
